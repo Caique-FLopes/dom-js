@@ -22,6 +22,34 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <section>
+            <form action="" id="formContato">
+                <div class="headerForm">
+                    <h2>Receba nossas notificações!</h2>
+                </div>
+                <div class="rowInput">
+                    <label for="cpf">CPF</label>
+                    <input type="text" placeholder="000.000.000-00" inputmode="numeric" id="cpf" required>
+                    <p class="messageError cpf"></p>
+                </div>
+                <div class="rowInput">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="email@dominio.com" id="email" required>
+                    <p class="messageError email"></p>
+                </div>
+                <div class="rowInput">
+                    <label for="tel">Telefone</label>
+                    <input type="tel" placeholder="(99) 99999-9999" id="tel">
+                    <p class="messageError tel"></p>
+                </div>
+                <div class="rowInput">
+                    <button id="limparForm">Limpar</button>
+                    <button id="enviarForm">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
     <script src="./script.js"></script>
 </body>
 </html>
